@@ -43,7 +43,7 @@ for linha in pag_fornecedores.iter_rows(min_row =2, values_only= True):
     CONTRATANTE: kiradopy
     E-mail: kiradopai@gkira.com
 
-    [São Paulo],{datetime.now().strftime('%d/%m/%Y')}
+    [Itajai, Santa Catarina],{datetime.now().strftime('%d/%m/%Y')}
 
     """
     arquivo_word.add_paragraph(texto_contrato)
