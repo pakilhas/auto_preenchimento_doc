@@ -43,10 +43,19 @@ for linha in pag_fornecedores.iter_rows(min_row =2, values_only= True):
     CONTRATANTE: kiradopy
     E-mail: kiradopai@gkira.com
 
+<<<<<<< HEAD
     [Itajai, SC],{datetime.now().strftime('%d/%m/%Y')}
+=======
+    [Itajai, Santa Catarina],{datetime.now().strftime('%d/%m/%Y')}
+>>>>>>> 8da2e5131d6136eb195d8b6e674166481b2ae409
 
     """
     #adicionar texto gerado ao word(docx)
     arquivo_word.add_paragraph(texto_contrato)
+<<<<<<< HEAD
     #salvar arquivos .docx
     arquivo_word.save(f'./contratos/contrato_{nome_empresa}.docx')
+=======
+
+    arquivo_word.save(f'./contratos/contrato_{nome_empresa}.docx')
+>>>>>>> 8da2e5131d6136eb195d8b6e674166481b2ae409
