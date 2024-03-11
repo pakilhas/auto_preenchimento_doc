@@ -46,6 +46,7 @@ for linha in pag_fornecedores.iter_rows(min_row =2, values_only= True):
     [São Paulo],{datetime.now().strftime('%d/%m/%Y')}
 
     """
+    #adicionar texto gerado ao word(docx)
     arquivo_word.add_paragraph(texto_contrato)
-
+    #salvar arquivos .docx
     arquivo_word.save(f'./contratos/contrato_{nome_empresa}.docx')
